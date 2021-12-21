@@ -275,7 +275,9 @@ a{
 
 
 
-/* letest Product */
+/* =================
+letest Product
+========================== */
 .LatestProduct{
     
 }
@@ -338,6 +340,7 @@ a{
     position: relative;
     overflow: hidden;
     margin-top: 104px;
+    padding-top:10px;
  
     
 }
@@ -351,7 +354,61 @@ a{
     
 position: absolute;
     
-bottom: 201px;
+bottom: 22px;
     
-right: -310px;
+right: 102px;
+    
+bottom: 200px;
+}
+.findContent button{
+    border-radius: 20px;
+}
+
+
+/* ===============
+SubScribe Option
+================*/
+
+.subscribe{
+    margin-top: 100px;
+}
+.subWraper{
+    background-color: #DFF1FF;
+    padding: 10px;
+    position: relative;
+}
+.subWraper .col{
+   
+   margin-top: 50px;
+   padding: 20px;
+}
+.inpt{
+    position: relative;
+}
+.inpt input{
+    padding: 10px;
+    border-radius: 20px;
+}
+.inpt button{
+    position:absolute;
+    top: 20px;
+    border-radius: 200px;
+    right:150px;
+    padding: 10px;
+}
+
+/* =====================
+SerVices
+================= */
+
+.services{
+
+}
+.serBox{
+    
+}
+.serBox .icon{}
+.serBox .icon i{
+    font-size: 40px;
+    color: #000000c7;
 }
